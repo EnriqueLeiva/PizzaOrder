@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pizza Form</title>
+</head>
+
+<body>
+  <img src="images/pizza.jpg" alt="Pizza Image" height="270">
+  <form action="https://formcarry.com/s/3ephcH2N7rJ" method="post">
+
+    <h1>Pizza Order</h1>
+    <fieldset>
+
+      <legend>
+        <h2>Pizza Type</h2>
+      </legend>
+      <h3>Choose Size:</h3>
+      <input type="radio" name="Size" value="Kids 7">
+      <label for="">Kids 7"</label>
+      <input type="radio" name="Size" value="Small">
+      <label for="">Small</label>
+      <input type="radio" name="Size" value="Medium 11">
+      <label for="">Medium 11"</label>
+      <input type="radio" name="Size" value="Large 15">
+      <label for="">Large 15"</label>
+
+      <h3>Choose Base:</h3>
+      <input type="radio" id="Thin Base" name="Base" value="Thin">Thin Base
+      <input type="radio" id="Thick Base" name="Base" value="Thick">Thick Base
+
+      <h2>Choose Toppings</h2>
+      <h4>Meat</h4>
+      <input type="radio" name="Bacon" value="Yes">
+      <label for="">Bacon</label>
+      <input type="radio" name="Pepperoni" value="Yes">
+      <label for="">Pepperoni</label>
+      <input type="radio" name="Chicken" value="Yes">
+      <label for="">Chicken</label><br>
+      <input type="radio" name="Salami" value="Yes">
+      <label for="">Salami</label>
+      <input type="radio" name="Ham" value="Yes">
+      <label for="">Ham"</label>
+      <input type="radio" name="Meatballs" value="Yes">
+      <label for="">Meatballs"</label>
+      <br><br>
+
+      <h4>Vegetables</h4>
+      <input type="radio" name="Tomatoes" value="Yes">
+      <label for="">Tomatoes</label>
+      <input type="radio" name="Onion" value="Yes">
+      <label for="">Onion</label>
+      <input type="radio" name="Chilli" value="Yes">
+      <label for="">Chilli</label>
+      <input type="radio" name="Mushroom" value="Yes">
+      <label for="">Mushroom</label><br>
+      <input type="radio" name="Pickles" value="Yes">
+      <label for="">Pickles</label>
+      <input type="radio" name="Sweetcorn" value="Yes">
+      <label for="">Sweetcorn"</label>
+      <input type="radio" name="Pepper" value="Yes">
+      <label for="">Pepper</label>
+      <input type="radio" name="Pineapple" value="Yes">
+      <label for="">Pineapple"</label>
+
+    </fieldset>
+
+    <fieldset>
+
+      <legend>
+        <h3>Details</h3>
+      </legend>
+
+      <h4>All fields are required to submit your order</h4>
+
+      <label for="">Name</label>
+      <input type="text" name="Name" placeholder="First name" required><br>
+      <label for="">Last Name</label>
+      <input type="text" name="LastName" placeholder="Last Name" required><br>
+      <label for="">Email Address</label>
+      <input type="text" name="Email" placeholder="Email" required><br>
+      <label for="">Phone Number</label>
+      <input type="text" name="PhoneNumber" placeholder="PhoneNumber" required>
+
+      <table>
+        <tr>
+          <td><label for="">Address</label></td>
+          <td><textarea name="Address" rows="10" cols="25" placeholder="Enter Address"></textarea></td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <h3>Payment</h3>
+      </legend>
+
+      <input type="radio" value="Pay on Arrival" name="Payment">
+      <label for="">Pay on Arrival</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <input type="radio" value="Pay Now" name="Payment">
+      <label for="">Pay Now</label><br><br>
+
+      Bank details <br>
+      <label for="">Card Number</label>
+      <input type="number" name="cardnumber" placeholder="16 digits"><br>
+      <label for="">Expiry Date</label>
+      <input type="text" name="expirydate" placeholder="**/**"><br>
+      <label for="">SVV</label>
+      <input type="text" name="SVV" placeholder="***">
+
+    </fieldset><br>
+
+    <input type="submit" name="" value="Place your Order">
+  </form>
+
+</body>
+
+</html>
